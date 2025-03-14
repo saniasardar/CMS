@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Department</title>
+        <style>
+    
+    select {
+        background-color: #f2f2f2; /* light gray */
+        border: 1px solid #ccc; /* light gray */
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #333; /* dark gray */
+    }
+
+    select option {
+        color: #397be6; /* dark gray */
+    }
+
+    select option:hover {
+        background-color: #ddd; /* light gray */
+        color: #397be6;; /* dark gray */
+    }
+
+    select:focus {
+        border-color: #aaa; /* dark gray */
+        box-shadow: 0 0 10px #397be6;s /* shadow effect */
+    }
+</style>
+    </head>
+    <body>
+       
+<select id="Department">
+  <option value="option 1">Department</option>
+  <option value="option 2">IS/BG</option>
+  <option value="option 3">NETWORK & CYBER SECURITY</option>
+  <option value="option 3"></option>
+</select>
+
+    </body>
+</html>
+
+
+

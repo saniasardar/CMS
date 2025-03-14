@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login To Register</title>
+
+    <style>
+        /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Centering the Page */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+        }
+
+        /* Logo Styling */
+        .logo-container img {
+            width: 400px;
+            height: 150px;
+        }
+
+        /* Header Styles */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 20px;
+            background:  rgb(8, 145, 236);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 160;
+        }
+
+        .navtar a {
+            font-size: 16px;
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        /* Form Box */
+        .form-box {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 80px;
+        }
+
+        .input-box {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .input-box input {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Button Styling */
+        button {
+            padding: 10px;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Register Link */
+        .register-link {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .register-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+
+<body>
+
+    <!-- Header with Navigation -->
+    <header class="header">
+        <nav class="navtar">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Department.html">Department</a>
+        </nav>
+        
+    </header>
+
+    <!-- Logo and Login Form -->
+    <div class="logo-container">
+        <img src="C:\Users\sabee\OneDrive\Pictures\Saved Pictures\bel image.jpg" alt="BEL Logo">
+    </div>
+    <div class="container"
+    <div class="form-box" id="login-form">
+        <form action="dashboard.html" method="POST">
+            <h1 style="text-align: center; color:rgb(8, 145, 236);">Welcome to BEL</h1>
+            <h2>Login</h2>
+        </form>
+            <div class="input-box">
+                <input type="text" name="userid" placeholder="User ID" required>
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <a href = "gpt.html" class="btn">
+                         Log in</a>
+                        
+                <style>
+                    .btn {
+                        display: inline-block;
+                        padding: 20px 20px;
+                        width: 270px;
+                        background-color: #007bff;
+                        color: white;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        font-size: 16px;
+                    }
+                
+                    .btn:hover {
+                        background-color: #0056b3;
+                    }
+                </style>
+                
+            </a>
+            
+
+            <p class="register-link">Don't have an account? <a href="register.html">Register</a></p>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>

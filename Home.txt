@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+   <style>
+    
+        select {
+            background-color: #f2f2f2; /* light gray */
+            border: 1px solid #ccc; /* light gray */
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #333; /* dark gray */
+        }
+
+        select option {
+            color: #397be6; /* dark gray */
+        }
+
+        select option:hover {
+            background-color: #ddd; /* light gray */
+            color: #397be6;; /* dark gray */
+        }
+
+        select:focus {
+            border-color: #aaa; /* dark gray */
+            box-shadow: 0 0 10px #397be6;s /* shadow effect */
+        }
+    </style>
+    <ul>
+        <img src="C:\Users\sabee\OneDrive\Pictures\Saved Pictures\sann coll.jpg"     alt="Image" style="display: block; margin:0;">
+           <option value="option 2"> Images</option></a>
+           
+   <style>
+       .btn {
+           display: inline-block;
+           padding: 20px 20px;
+           width: 270px;
+           background-color: #007bff;
+           color: white;
+           text-decoration: none;
+           border-radius: 5px;
+           font-size: 16px;
+       }
+   
+       .btn:hover {
+           background-color: #0056b3;
+       }
+   </style>
+   
+</a>
+
+
+</form>
+</div>
+</div>
+</body>
+
+</html>
+    

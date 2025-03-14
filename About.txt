@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 200vh;
+            background-color: #ffffff;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 20px;
+            background: rgb(8, 145, 236);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 160;
+        }
+        .navtar a {
+            font-size: 16px;
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .logo-container img {
+            width: 400px;
+            height: 100px;
+        }
+        .form-box {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 80px;
+        }
+        .image-template {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: 300px;
+            border: 1px solid #ddd;
+        }
+        .image-template img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 20px;
+            display: none;
+        }
+        .image-template:hover .image-overlay {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="C:\Users\sabee\OneDrive\Pictures\Saved Pictures\bel image.jpg" alt="bel logo">
+        </div>
+        <div class="navtar">
+            <a href="bel11.html">Departments</a>
+        </div>
+    </div>
+    <h3>INFO</h3>
+    <p>Bharat Electronics Limited was established at Bangalore, India, by the Government of India under the Ministry of Defence in 1954...</p>
+    <div class="image-template">
+        <img src="C:\Users\sabee\Downloads\bel imag1" alt="Image Template">
+        <div class="image-overlay">
+            <h2>VISION</h2>
+            <p>To be a world-class enterprise in professional Electronics</p>
+            <h2>MISSION</h2>
+            <p>To be a customer-focused, globally competitive company...</p>
+            <h2>VALUES</h2>
+            <p>-- Working with transparency, honesty & integrity.</p>
+            <p>-- Trusting and respecting individuals.</p>
+            <p>-- Striving to achieve high employee satisfaction.</p>
+            <p>-- Fostering teamwork.</p>
+        </div>
+    </div>
+</body>
+</html>
